@@ -66,8 +66,8 @@ main {
 }
 .portfolio {
   display: grid;
-  grid-template-columns: repeat(10, 1fr);
-  width: 50rem;
+  grid-template-columns: repeat(8, 1fr);
+  width: 40rem;
   grid-template-rows: 1fr 1fr;
   gap: 1rem;
 }
@@ -80,7 +80,7 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  padding-left: 35%;
+  padding-left: 30%;
 }
 .t2 h2 {
   padding-top: 10px;
@@ -89,14 +89,14 @@ main {
 
 .t3 {
   display: flex;
-  grid-column: span 5;
+  grid-column: span 3;
   height: 9rem;
-  background-image: url(billeder/tema3.png);
+  background-image: url(billeder/tema52.webp);
   background-size: 70%;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  padding-left: 40%;
+  padding-left: 37%;
 }
 .t3 h2 {
   padding-top: 10px;
@@ -110,18 +110,30 @@ main {
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 15%;
 }
 
 .t51 {
-  grid-column: span 5;
-  background-color: var(--color2);
+  display: flex;
+  grid-column: span 4;
   height: 9rem;
+  background-image: url(billeder/tema51.webp);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  padding-left: 30%;
 }
 
 .t52 {
-  grid-column: span 5;
-  background-color: var(--color2);
+  display: flex;
+  grid-column: span 4;
+  background-image: url(billeder/tema3.png);
+  background-size: 75%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  padding-left: 35%;
   height: 9rem;
 }
 
