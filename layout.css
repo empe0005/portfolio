@@ -1,0 +1,223 @@
+main {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.hero {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  grid-template-rows: 30px 30px 30px 30px;
+  height: 200px;
+  padding-top: 200px;
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 160px;
+  justify-content: center;
+  background-image: url(billeder/forside.png);
+  aspect-ratio: 1100/1460;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.emmas {
+  display: block;
+  grid-column: 1/6;
+  font-size: 2.2rem;
+}
+
+.kea {
+  display: block;
+  grid-column: 6/9;
+  grid-row: 2/3;
+  font-size: 2.2rem;
+}
+.port {
+  display: block;
+  grid-column: 2/6;
+  grid-row: 3/4;
+  font-size: 2.2rem;
+}
+.folio {
+  display: block;
+  grid-column: 6/10;
+  grid-row: 4/5;
+  font-size: 2.2rem;
+}
+
+/* portfoli.html */
+.overskrift {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 30px 30px;
+  padding: 80px;
+}
+.port2 {
+  grid-column: span 3;
+  font-style: normal;
+  color: var(--color3);
+  font-size: 3rem;
+}
+.folio2 {
+  grid-column: 3/6;
+  color: var(--color2);
+  font-size: 3rem;
+}
+.portfolio {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+  width: 50rem;
+  grid-template-rows: 1fr 1fr;
+  gap: 1rem;
+}
+.t2 {
+  display: flex;
+  grid-column: span 3;
+  height: 9rem;
+  background-image: url(billeder/tema2.png);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  padding-left: 35%;
+}
+.t2 h2 {
+  padding-top: 10px;
+  color: var(--color5);
+}
+
+.t3 {
+  display: flex;
+  grid-column: span 5;
+  height: 9rem;
+  background-image: url(billeder/tema3.png);
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  padding-left: 40%;
+}
+.t3 h2 {
+  padding-top: 10px;
+}
+.t4 {
+  display: flex;
+  grid-column: span 2;
+  height: 9rem;
+  background-image: url(billeder/tema4.webp);
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  align-items: center;
+  padding-left: 20%;
+}
+
+.t51 {
+  grid-column: span 5;
+  background-color: var(--color2);
+  height: 9rem;
+}
+
+.t52 {
+  grid-column: span 5;
+  background-color: var(--color2);
+  height: 9rem;
+}
+
+/* temaer */
+.indhold {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 1fr 1fr 1fr;
+  gap: 2rem;
+  margin: 2rem 15rem;
+}
+.tekst {
+  grid-column: span 2;
+  grid-row: 1/3;
+  padding: 20px;
+}
+.button2 {
+  grid-column: span 2;
+}
+.billede {
+  grid-column: span 2;
+  justify-self: center;
+  align-self: center;
+}
+.galleri {
+  display: flex;
+  grid-column: span 4;
+  grid-row: 3/4;
+  justify-content: center;
+  gap: 20px;
+}
+
+.overskrift2 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  grid-template-rows: 35px 35px;
+  padding: 60px;
+  width: 800px;
+}
+.tema {
+  color: var(--color2);
+  grid-column: 4/6;
+  font-size: 3rem;
+}
+.navn {
+  color: var(--color3);
+  grid-column: 2/6;
+  font-size: 3rem;
+  font-style: normal;
+}
+.navn4 {
+  color: var(--color3);
+  grid-column: 3/6;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+.navn5 {
+  color: var(--color3);
+  grid-column: 1/6;
+  font-size: 3rem;
+  font-style: normal;
+}
+
+/* about me */
+.baggrund {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr;
+  background-color: var(--color2);
+  gap: 2rem;
+  padding: 3rem 4rem;
+}
+
+.baggrund img {
+  height: 350px;
+}
+
+.baggrund h1 {
+  color: var(--color4);
+}
+
+.about {
+  color: var(--color3);
+  font-size: 4rem;
+  padding: 2rem;
+}
+
+/* footer */
+.footer {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+  justify-items: center;
+  padding-top: 1rem;
+  padding-bottom: 0;
+}
+.copy {
+  grid-column: 2/3;
+}
