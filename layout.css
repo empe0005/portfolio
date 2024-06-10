@@ -92,11 +92,11 @@ main {
   grid-column: span 3;
   height: 9rem;
   background-image: url(billeder/tema52.webp);
-  background-size: 70%;
+  background-size: 80%;
   background-repeat: no-repeat;
   background-position: center;
   align-items: center;
-  padding-left: 37%;
+  padding-left: 30%;
 }
 .t3 h2 {
   padding-top: 10px;
