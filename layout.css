@@ -15,7 +15,7 @@ main {
   padding-right: 200px;
   padding-bottom: 160px;
   justify-content: center;
-  background-image: url(billeder/forside.png);
+  background-image: url(billeder/forside.webp);
   aspect-ratio: 1100/1460;
   background-size: 100%;
   background-repeat: no-repeat;
@@ -75,7 +75,7 @@ main {
   display: flex;
   grid-column: span 3;
   height: 9rem;
-  background-image: url(billeder/tema2.png);
+  background-image: url(billeder/tema2.webp);
   background-size: 100%;
   background-repeat: no-repeat;
   background-position: center;
@@ -131,7 +131,7 @@ main {
 .t52 {
   display: flex;
   grid-column: span 4;
-  background-image: url(billeder/tema3.png);
+  background-image: url(billeder/tema3.webp);
   background-size: 75%;
   background-repeat: no-repeat;
   background-position: center;
