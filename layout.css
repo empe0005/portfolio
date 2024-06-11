@@ -243,6 +243,9 @@ main {
   padding-top: 1rem;
   padding-bottom: 0;
 }
+footer img {
+  height: 140px;
+}
 .copy {
   grid-column: 2/3;
 }
