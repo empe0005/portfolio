@@ -51,7 +51,7 @@ main {
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: 30px 30px;
-  padding-top: 80px;
+  padding: 80px;
 }
 .port2 {
   grid-column: span 3;
