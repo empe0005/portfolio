@@ -148,6 +148,13 @@ main {
   gap: 2rem;
   margin: 2rem 12rem;
 }
+.indhold2 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: 2fr 2fr 1fr;
+  gap: 2rem;
+  margin: 2rem 12rem;
+}
 .tekst {
   grid-column: span 2;
   grid-row: 1/3;

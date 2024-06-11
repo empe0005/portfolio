@@ -74,6 +74,12 @@
     margin: 20px;
     width: 400px;
   }
+  .indhold2 {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    width: 400px;
+  }
   .galleri img {
     height: 100px;
   }
